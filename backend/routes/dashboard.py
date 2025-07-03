@@ -4,7 +4,7 @@ from backend.models.invoice import Invoice
 from backend.models.teammembership import TeamMembership
 from backend.models.user import User
 from backend.models.team import Team
-from backend.app import db
+from backend.database import db
 from datetime import datetime
 from sqlalchemy import extract, func
 

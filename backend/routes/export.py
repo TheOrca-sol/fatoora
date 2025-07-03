@@ -5,7 +5,7 @@ from backend.models.client import Client
 from backend.models.teammembership import TeamMembership
 from backend.models.user import User
 from backend.models.team import Team
-from backend.app import db
+from backend.database import db
 from backend.utils.pdf import render_invoice_pdf
 import io
 import csv

@@ -1,4 +1,4 @@
-from backend.app import db
+from backend.database import db
 
 class TeamMembership(db.Model):
     __tablename__ = 'team_memberships'

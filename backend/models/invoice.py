@@ -1,4 +1,4 @@
-from backend.app import db
+from backend.database import db
 from datetime import datetime
 
 class Invoice(db.Model):

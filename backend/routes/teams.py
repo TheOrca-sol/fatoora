@@ -3,7 +3,7 @@ from backend.utils.firebase_auth import verify_firebase_token
 from backend.models.team import Team
 from backend.models.teammembership import TeamMembership
 from backend.models.user import User
-from backend.app import db
+from backend.database import db
 import os
 
 teams_bp = Blueprint('teams', __name__)
